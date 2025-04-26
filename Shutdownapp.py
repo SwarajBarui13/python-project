@@ -1,4 +1,6 @@
-"""import os
+#Method-1
+
+import os
 import tkinter as tk
 from tkinter import messagebox
 
@@ -55,7 +57,9 @@ shutdown_button.bind("<Leave>", on_leave)
 
 # Run
 root.mainloop()
-"""
+
+
+#Method-2
 
 from tkinter import *
 import os
